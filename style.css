@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(img/grey.png);
+    background-size: 40px;
+    
+    /* background-blend-mode:multiply; */
+   
+    
+
+  }
+
+
+  main {
+    padding: 40px;
+  }
+  p  {
+    font-family: "Runish" ;
+    
+    color: #ffffff;
+    /* color: white; */
+    font-size: 40px;
+    opacity: 100%;
+    /* letter-spacing: 2pt; */
+    /* line-height: 200%; */
+  }
+
+
+  /* #r {
+    color: rgb(47, 4, 4);
+  } */
+
+  @font-face {
+    font-family: 'Runish';
+    src: URL('Franklin.ttf') format('truetype');
+  }
+
+ 
+
+  /* hover effects */
+
+/* 
+  #q:hover {
+    color: rgb(118, 125, 59);
+  }
+
+  #w:hover {
+    color: rgb(255,201,14);
+  }
+
+  #e:hover {
+    color: rgb(135,15,10);
+  }
+
+#r:hover {
+color:  rgb(176, 58, 3);
+} */
+
+/* img:hover {
+
+html {
+background-color: white;
+  color: black;
+}
+
+  
+} */
+
+
+#title {
+  font-size:115px;
+  justify-content: center;
+  /* margin-top: .25em;
+  margin-bottom: .25em; */
+  /* text-decoration: underline; */
+  line-height: 118px;
+  margin: 0%;
+  margin-top: -21px;
+}
+
+#info {
+  
+  width: 880px;;
+  height: auto;
+  /* padding: 2%; */
+  border: 20px solid #ffffff;
+  border-radius: 20px;
+
+
+}
+
+.break {
+  height: 80px;
+  width: auto;
+}
+
+.sub {font-size: 3em;
+ /* text-decoration: underline ;  */
+ line-height: 50%;
+}
+
+.case {
+  font-size: 7em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.text {
+  font-size: 30px;
+  line-height: 60px;
+  
+  margin-top: -11px;
+}
+
+
+/* #flex {
+  display: flex;
+  max-height: auto;
+  max-width: 95%;
+} */
+
+/* div {
+
+} */
