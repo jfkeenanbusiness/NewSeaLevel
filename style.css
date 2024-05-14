@@ -69,7 +69,7 @@ background-color: white;
 } */
 
 
-#title {
+.title {
   font-size:115px;
   justify-content: center;
   /* margin-top: .25em;
@@ -84,7 +84,7 @@ background-color: white;
 
 }
 
-#info {
+.info {
   
   width: 100%;;
   height: auto;
@@ -134,21 +134,21 @@ background-color: white;
 
 } */
 
-#titleTape {
+.titleTape {
   background-color:#f6d451 ;
   padding: 40px;
   color: #000000;
 
 }
 
-#titleTape2 {
+.titleTape2 {
   background-color:#F37B20 ;
   padding: 40px;
   color: #000000;
 
 }
 
-#titleTape3 {
+.titleTape3 {
   background-color:#EE3937 ;
   padding: 40px;
   color: #000000;
@@ -163,7 +163,7 @@ a {
 
 
 
-#flexBox {
+.flexBox {
   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,7 +177,7 @@ a {
 
 
 @media screen and (min-width: 1200px) {
-  #info {
+  .info {
 width:45%;
 height: auto;
   }
@@ -200,6 +200,6 @@ a:hover {
   /* color: #000000;  aa*/
 }
 
-.broke {
+#broke {
   margin-bottom: 40px;
 }
