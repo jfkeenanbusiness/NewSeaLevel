@@ -101,7 +101,7 @@ background-color: white;
   width: auto;
 }
 
-.sub {font-size: 3em;
+#sub {font-size: 80px;
  /* text-decoration: underline ;  */
  line-height: 50%;
 }
