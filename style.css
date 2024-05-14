@@ -12,9 +12,10 @@ html, body {
   }
 
 
-  main {
-    padding: 40px;
-  }
+  /* main {
+
+    
+  } */
   p  {
     font-family: "Runish" ;
     
@@ -77,18 +78,23 @@ background-color: white;
   line-height: 118px;
   margin: 0%;
   margin-top: -21px;
+  color: #000000;
+  overflow:hidden;
+
+
 }
 
 #info {
   
-  width: 880px;;
+  width: 100%;;
   height: auto;
-  /* padding: 2%; */
-  border: 20px solid #ffffff;
-  border-radius: 20px;
+  /* padding-left: 40px;
+  padding-bottom: 40px; */
 
 
 }
+
+
 
 .break {
   height: 80px;
@@ -107,10 +113,14 @@ background-color: white;
 }
 
 .text {
-  font-size: 30px;
+  font-size: 15px;
   line-height: 60px;
   
-  margin-top: -11px;
+  margin-top: -40px;
+
+  padding: 40px;
+  /* padding-top: 0px; */
+  /* JUSTIFY TEXT???????????????????????? */
 }
 
 
@@ -123,3 +133,73 @@ background-color: white;
 /* div {
 
 } */
+
+#titleTape {
+  background-color:#f6d451 ;
+  padding: 40px;
+  color: #000000;
+
+}
+
+#titleTape2 {
+  background-color:#F37B20 ;
+  padding: 40px;
+  color: #000000;
+
+}
+
+#titleTape3 {
+  background-color:#EE3937 ;
+  padding: 40px;
+  color: #000000;
+
+}
+
+a {
+  color:#f6d451
+}
+
+
+
+
+
+#flexBox {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+      padding-left: 40px;
+      padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  #info {
+width:45%;
+height: auto;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+
+
+}
+
+a:hover {
+  color:#EE3937
+}
+
+.headless {
+  padding-top: 0px;
+  margin:0px;
+  margin-bottom: 40px;
+  /* color: #000000; */
+}
+
+.broke {
+  margin-bottom: 40px;
+}
